@@ -3,5 +3,8 @@
 # 2020B
 
 import matplotlib.pyplot as plt
-plt.plot([4,8],[3,-2])
+x=[4,8]
+y=[3,-2]
+plt.plot(x,y)
+plt.scatter(x,y)
 plt.show()
